@@ -20,7 +20,17 @@ public Policy() {
         this.height = 0.0;
         this.weight = 0.0;
 }
-// Constructor with arguments
+// Constructor with arguments and documentation comments 
+     * @param policyNumber  The policy number
+     * @param providerName  The insurance provider name
+     * @param firstName     The policyholder's first name
+     * @param lastName      The policyholder's last name
+     * @param age           The policyholder's age
+     * @param smokingStatus The policyholder's smoking status (smoker/non-smoker)
+     * @param height        The policyholder's height in inches
+     * @param weight        The policyholder's weight in pounds
+     */
+
     public Policy(int policyNumber, String providerName, String firstName, String lastName,
                   int age, String smokingStatus, double height, double weight) {
         this.policyNumber = policyNumber;
@@ -32,28 +42,35 @@ public Policy() {
         this.height = height;
         this.weight = weight;
 }
-// Getters and Setters
+    // Getters and Setters
+    /**
+     * Gets the policy number.
+     * @return The policy number
+     */
 
     public int getPolicyNumber() {
         return policyNumber;
     }
-
+    /**
+     * Sets the policy number.
+     * @param policyNumber The policy number to set
+     */
     public void setPolicyNumber(int policyNumber) {
         this.policyNumber = policyNumber;
     }
-
+    
     public String getProviderName() {
         return providerName;
     }
-
+ 
     public void setProviderName(String providerName) {
         this.providerName = providerName;
     }
-
+    
     public String getFirstName() {
         return firstName;
     }
-
+  
     public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
@@ -99,14 +116,20 @@ public Policy() {
 }
 
 //Using the calculation methods 
-
+/**
+     * Calculates and returns the Body Mass Index (BMI) of the policyholder.
+     * @return The calculated BMI
+     */
     public double getBMI() {
         if (height <= 0) {
             return 0.0;
         }
         return (weight * 703.0) / (height * height);
     }
-
+/**
+     * Calculates and returns the total monthly price of the insurance policy based on age, smoking status, and BMI.
+     * @return The calculated policy price
+     */
     public double getPrice() {
         double price = 600.0; // Base fee
 
