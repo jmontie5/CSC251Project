@@ -58,59 +58,101 @@ public Policy() {
     public void setPolicyNumber(int policyNumber) {
         this.policyNumber = policyNumber;
     }
-    
+    /**
+     * Gets the provider name.
+     * @return The provider name
+     */
     public String getProviderName() {
         return providerName;
     }
- 
+     /**
+     * Sets the provider name.
+     * @param providerName The provider name to set
+     */
     public void setProviderName(String providerName) {
         this.providerName = providerName;
     }
-    
+    /**
+     * Gets the policyholder's first name.
+     * @return The first name
+     */
     public String getFirstName() {
         return firstName;
     }
-  
+      /**
+     * Sets the policyholder's first name.
+     * @param firstName The first name to set
+     */
     public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
-
+    /**
+     * Gets the policyholder's last name.
+     * @return The last name
+     */
     public String getLastName() {
         return lastName;
     }
-
+    /**
+     * Sets the policyholder's last name.
+     * @param lastName The last name to set
+     */
     public void setLastName(String lastName) {
         this.lastName = lastName;
     }
-
+    /**
+     * Gets the policyholder's age.
+     * @return The age
+     */
     public int getAge() {
         return age;
     }
-
+    /**
+     * Sets the policyholder's age.
+     * @param age The age to set
+     */
     public void setAge(int age) {
         this.age = age;
     }
-
+    /**
+     * Gets the policyholder's smoking status.
+     * @return The smoking status
+     */
     public String getSmokingStatus() {
         return smokingStatus;
     }
-
+    /**
+     * Sets the policyholder's smoking status.
+     * @param smokingStatus The smoking status to set
+     */
     public void setSmokingStatus(String smokingStatus) {
         this.smokingStatus = smokingStatus;
     }
-
+    /**
+     * Gets the policyholder's height.
+     * @return The height in inches
+     */
     public double getHeight() {
         return height;
     }
-
+    /**
+     * Sets the policyholder's height.
+     * @param height The height in inches to set
+     */
     public void setHeight(double height) {
         this.height = height;
     }
-
+    /**
+     * Gets the policyholder's weight.
+     * @return The weight in pounds
+     */
     public double getWeight() {
         return weight;
     }
-
+    /**
+     * Sets the policyholder's weight.
+     * @param weight The weight in pounds to set
+     */
     public void setWeight(double weight) {
         this.weight = weight;
 }
