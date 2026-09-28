@@ -35,7 +35,7 @@ public class PolicyDemo {
                 } else if (smokingStatus.equalsIgnoreCase("non-smoker")) {
                     nonSmokerCount++;
                 }
-        // Skipping the blank line between records if it exists
+        
                 if (scanner.hasNextLine()) {
                     scanner.nextLine(); 
                 }
@@ -50,7 +50,6 @@ public class PolicyDemo {
         // Displaying the results
 
         for (Policy policy : policies) {
-        System.out.println("\n------------------------------------");
         System.out.println("Policy Number: " + policy.getPolicyNumber());
         System.out.println("Provider Name: " + policy.getProviderName());
         System.out.println("Policyholder's First Name: " + policy.getFirstName());
