@@ -55,9 +55,9 @@ public class PolicyDemo {
         System.out.println("Policyholder's First Name: " + policy.getFirstName());
         System.out.println("Policyholder's Last Name: " + policy.getLastName());
         System.out.println("Policyholder's Age: " + policy.getAge());
-        System.out.println("Policyholder's Smoking Status: " + policy.getSmokingStatus());
-        System.out.println("Policyholder's Height: " + policy.getHeight() + " inches");
-        System.out.println("Policyholder's Weight: " + policy.getWeight() + " pounds");
+        System.out.println("Policyholder's Smoking Status (smoker/non-smoker): " + policy.getSmokingStatus());
+        System.out.printf("Policyholder's Height: %.1f inches\n", policy.getHeight());
+        System.out.printf("Policyholder's Weight: %.1f pounds\n", policy.getWeight());
         System.out.printf("Policyholder's BMI: %.2f\n", policy.getBMI());
         System.out.printf("Policy Price: $%.2f\n", policy.getPrice());
             
