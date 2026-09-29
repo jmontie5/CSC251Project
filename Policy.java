@@ -8,8 +8,9 @@ public class Policy {
     private String smokingStatus;
     private double height;
     private double weight;
-// No-arg constructor
-
+/**
+ *No-arg constructor
+ */
 public Policy() {
         this.policyNumber = 0;
         this.providerName = "";
@@ -20,7 +21,7 @@ public Policy() {
         this.height = 0.0;
         this.weight = 0.0;
 }
-// Constructor with arguments and documentation comments 
+    /** Constructor with arguments and documentation comments 
      * @param policyNumber  The policy number
      * @param providerName  The insurance provider name
      * @param firstName     The policyholder's first name
