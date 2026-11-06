@@ -5,14 +5,29 @@ public class PolicyDemo {
         // Creating an ArrayList to hold policies
         ArrayList<Policy> policies = new ArrayList<>();
 
-        // Initialize policy records
+        // Alice Jones
         PolicyHolder holder1 = new PolicyHolder("Alice", "Jones", 20, "smoker", 65.0, 110.0);
         policies.add(new Policy(3450, "State Farm", holder1));
 
+        // Bob Lee
         PolicyHolder holder2 = new PolicyHolder("Bob", "Lee", 54, "non-smoker", 72.0, 200.0);
         policies.add(new Policy(3455, "Aetna", holder2));
 
-        // adding remaining policies as shown in the sample output
+        // Chester Williams
+        PolicyHolder holder3 = new PolicyHolder("Chester", "Williams", 40, "smoker", 71.0, 300.0);
+        policies.add(new Policy(2450, "Met Life", holder3));
+
+        // Cindy Smith
+        PolicyHolder holder4 = new PolicyHolder("Cindy", "Smith", 55, "non-smoker", 62.0, 140.0);
+        policies.add(new Policy(3670, "Global", holder4));
+
+        // Jenna Lewis
+        PolicyHolder holder5 = new PolicyHolder("Jenna", "Lewis", 30, "smoker", 60.0, 105.0);
+        policies.add(new Policy(1490, "Reliable", holder5));
+
+        // Craig Duncan
+        PolicyHolder holder6 = new PolicyHolder("Craig", "Duncan", 23, "smoker", 66.0, 215.0);
+        policies.add(new Policy(3477, "State Farm", holder6));
 
         int smokerCount = 0;
         int nonSmokerCount = 0;
