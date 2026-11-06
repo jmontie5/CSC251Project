@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Demo {
+public class PolicyDemo {
     public static void main(String[] args) {
         // Creating an ArrayList to hold policies
         ArrayList<Policy> policies = new ArrayList<>();
